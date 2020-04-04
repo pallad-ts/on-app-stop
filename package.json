@@ -1,0 +1,39 @@
+{
+  "name": "@pallad/on-app-stop",
+  "version": "1.0.0",
+  "description": "Simple listener on application stop",
+  "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
+  "files": [
+    "compiled"
+  ],
+  "scripts": {
+    "test": "pallad-scripts test",
+    "compile": "pallad-scripts compile",
+    "lint": "pallad-scripts lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallad-ts/on-app-stop.git"
+  },
+  "keywords": [
+    "sigterm",
+    "sigint",
+    "exit",
+    "application",
+    "exit"
+  ],
+  "author": "Łukasz Kużyński <lukasz.kuzynski@gmail.com> (http://wookieb.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pallad-ts/on-app-stop/issues"
+  },
+  "homepage": "https://github.com/pallad-ts/on-app-stop#readme",
+  "devDependencies": {
+    "@pallad/scripts": "^1.1.4",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.11.0",
+    "@types/sinon": "^7.5.2",
+    "sinon": "^7.5.0"
+  }
+}
